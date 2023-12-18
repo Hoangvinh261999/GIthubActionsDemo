@@ -1,0 +1,60 @@
+@charset "ISO-8859-1";
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+ul, li {
+    list-style-type: none;
+}
+
+.menu {
+    width: 100%;
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    height: 80px;
+    background-color: orange;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.menu li {
+    display: inline-block;
+    margin-right: 20px;
+}
+.has-submenu{
+	    position: relative; /* Thêm thuộc tính position: relative; */
+
+	
+}
+.submenu {
+    width: 250px;
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 100%; /* Thay đổi giá trị của top để đặt submenu dưới li chứa nó */
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu li:hover .submenu,
+.submenu:hover {
+    display: inline-grid;
+}
+
+.menu li:focus-within .submenu {
+    display: inline-grid;
+}
+
+/* Optional: Style the submenu items */
+.submenu li {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.submenu li:hover {
+    background-color: #ccc;
+}

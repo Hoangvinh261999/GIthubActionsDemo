@@ -1,0 +1,115 @@
+@charset "UTF-8";
+
+.ndvideo {
+	display: flex;
+}
+
+.poster{
+	
+	flex: 4;
+    background-color: beige;
+	padding: 10px;
+	text-align: center
+	/* Thêm padding nếu cần thiết */
+}
+
+.vdinfor{
+	flex: 8;
+    background-color: aquamarine;
+	padding: 10px;	
+		margin-left: 40px;
+		    font-size: larger;
+
+	}
+
+.vdinfor input{
+width: 99%;
+    height: 25px;
+    font-size: medium;
+
+
+	}
+.vdinfor .radio1{
+	width: 20%;
+}
+a {
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+	font-size: larger;
+}
+
+.menu a {
+	display: block;
+	padding: 10px 20px;
+	margin-bottom: 10px;
+	font-size: x-large;
+}
+
+.menu {
+
+	display: flex;
+	background: black;
+}
+
+.menucon {
+	display: flex;
+	width: 60%;
+	text-align: center;
+	color: beige;
+	margin-left: 300px}
+
+.menucon a {
+	color: beige;
+}
+
+.namePage {
+
+	width: 40%;
+}
+table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+th, td {
+	border: 1px solid #ccc;
+	padding: 10px;
+}
+
+th {
+	background-color: #000;
+	color: #fff;
+}
+
+
+        .pagination {
+            display: flex;
+            list-style: none;
+            padding: 0;
+        }
+
+        .pagination li {
+            margin: 0 5px;
+        }
+
+        .pagination a {
+            text-decoration: none;
+            padding: 8px 16px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            color: #333;
+        }
+
+.pagination a:hover {
+            background-color: #f1f1f1;
+        }
+   
+
+.div1 > div {
+  margin-right: 20px; /* Khoảng cách giữa các cặp input và label */
+}
+
+.input1 {
+  margin-right: 10px; /* Khoảng cách giữa các cặp input và label */
+}

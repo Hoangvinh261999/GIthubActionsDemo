@@ -1,0 +1,33 @@
+@charset "UTF-8";
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Chia thành 3 cột */
+  gap: 20px; 
+}
+
+.grid {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ccc; 
+  padding: 10px;
+}
+
+.poster img {
+ max-width: 100%;
+height:auto}
+
+.video-title {
+  margin-top: 10px;
+  background-color: beige;
+  border: solid 2px;
+  }
+
+.like-share {
+  margin-top: 10px;
+  display: flex;
+  justify-content: end;
+  
+}
+.like-share button {
+  margin-left: 10px; /* hoặc giá trị margin mong muốn */
+}

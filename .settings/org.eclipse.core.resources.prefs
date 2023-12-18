@@ -1,0 +1,12 @@
+eclipse.preferences.version=1
+encoding//i18n/global_vi.properties=UTF-8
+encoding//i18n/home_vi.properties=UTF-8
+encoding//src/main/webapp/views/admin/ManagementUser/Edition.jsp=UTF-8
+encoding//src/main/webapp/views/admin/ManagementUser/indexVD.jsp=UTF-8
+encoding//src/main/webapp/views/admin/ManagementVideo/Favorite.jsp=UTF-8
+encoding//src/main/webapp/views/admin/ManagementVideo/VideoAdList.jsp=UTF-8
+encoding//src/main/webapp/views/admin/ManagementVideo/VideoEdition.jsp=UTF-8
+encoding//src/main/webapp/views/admin/ManagementVideo/indexMnUs.jsp=UTF-8
+encoding//src/main/webapp/views/admin/ManagementVideo/menuAd.jsp=UTF-8
+encoding//src/main/webapp/views/admin/ReportAd/FavoriteUser.jsp=UTF-8
+encoding//src/main/webapp/views/admin/ReportAd/ShareFriend.jsp=UTF-8
